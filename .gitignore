@@ -1,0 +1,17 @@
+a.out
+doc/*
+
+.DS_Store
+*.code-workspace
+*.o
+
+.vscode/*
+
+memo.txt
+
+*/*
+!*.cpp
+!*.hpp
+!Makefile
+
+!.github/workflows
