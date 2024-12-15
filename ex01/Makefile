@@ -3,6 +3,7 @@ NAME := a.out
 SRCS := $(wildcard *.cpp)
 OBJS := $(SRCS:.cpp=.o)
 CXXFLAGS += -Wall -Wextra -Werror -O0 -g -std=c++98 -pedantic-errors
+CXX := c++
 
 .PHONY: all
 all: $(NAME)
